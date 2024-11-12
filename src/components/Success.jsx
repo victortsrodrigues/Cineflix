@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 export default function Success({ infoChoise, selectedSeatsName, name, setName, cpf, setCpf, setSelectedSeats }) {
 
   function Teste(){
-    console.log("Teste")
     setName("");
     setCpf("");
     setSelectedSeats([]);
